@@ -188,7 +188,7 @@
 (use-package undo-tree
   :ensure t
   :config
-  (undo-tree-mode))
+  (global-undo-tree-mode))
 
 
 
