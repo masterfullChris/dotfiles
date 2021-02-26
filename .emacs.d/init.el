@@ -199,4 +199,21 @@
 
 
 (load-theme 'doom-gruvbox t)
+
+
+
+
+(defun config-edit ()
+  "Opens the configuration file for editing."
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
+
+(defun config-reload()
+  "Reloads the configuration file."
+  (interactive)
+  (load-file "~/.emacs.d/init.el"))
+
+(global-set-key (kbd "C-c e") 'config-edit)
+(global-set-key (kbd "C-c r") 'config-reload)
+
 ;;; init.el ends here.
