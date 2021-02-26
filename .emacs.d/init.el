@@ -216,4 +216,5 @@
 (global-set-key (kbd "C-c e") 'config-edit)
 (global-set-key (kbd "C-c r") 'config-reload)
 
+;;; personal comment
 ;;; init.el ends here.
