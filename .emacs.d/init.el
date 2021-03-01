@@ -193,7 +193,7 @@
 
 
 
-(global-set-key (kbd "C-x C-j") 'dired-jump)
+(global-set-key (kbd "C-x C-j") 'dired-jump-other-window)
 
 (global-set-key (kbd "C-c a") 'org-agenda)
 
