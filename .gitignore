@@ -1,11 +1,7 @@
 *~
 *#
-./.emacs.d/auto-save-list/
-./.emacs.d/elpa/
-./.emacs.d/eshell/
-./.emacs.d/recentf
-./.emacs.d/transient/
-./mpd/database
-./mpd/log/
-./mpd/pid/
-./mpd/state
+*swp
+./.emacs.d/*
+!./.emacs.d/init
+./mpd/*
+!./mpd/mpd.conf
