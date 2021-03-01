@@ -55,16 +55,18 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("d6603a129c32b716b3d3541fc0b6bfe83d0e07f1954ee64517aa62c9405a3441" default))
- '(org-agenda-files '("~/Documents/proj/org/myurlaub.org"))
+   (quote
+    ("d6603a129c32b716b3d3541fc0b6bfe83d0e07f1954ee64517aa62c9405a3441" default)))
+ '(org-agenda-files (quote ("~/Documents/proj/org/myurlaub.org")))
  '(package-selected-packages
-   '(mpdel undo-tree which-key projectile magit ivy-rich emmet-mode emmet flycheck helpful helpfull pdf-tools org-bullets counsel ivy use-package doom-themes doom-modeline company)))
+   (quote
+    (mpdel undo-tree which-key projectile magit ivy-rich emmet-mode emmet flycheck helpful helpfull pdf-tools org-bullets counsel ivy use-package doom-themes doom-modeline company))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:inherit nil :stipple nil :background "#282828" :foreground "#ebdbb2" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "DAMA" :family "Monaco for Powerline")))))
 
 (use-package ivy
   :ensure t
