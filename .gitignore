@@ -4,4 +4,3 @@
 /.emacs.d/*
 !./.emacs.d/init
 /mpd/*
-!./mpd/mpd.conf
