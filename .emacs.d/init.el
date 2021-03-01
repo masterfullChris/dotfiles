@@ -19,6 +19,7 @@
 (scroll-bar-mode -1)
 (set-fringe-mode 5)
 (setq visible-bell t)
+(setq inhibit-startup-screen 1)
 
 
 (defalias 'yes-or-no-p 'y-or-n-p)
