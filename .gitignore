@@ -1,7 +1,7 @@
 *~
 *#
 *swp
-./.emacs.d/*
+/.emacs.d/*
 !./.emacs.d/init
-./mpd/*
+/mpd/*
 !./mpd/mpd.conf
