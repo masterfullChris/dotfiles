@@ -10,3 +10,6 @@
 [submodule ".vim/bundle/badwolf"]
 	path = .vim/bundle/badwolf
 	url = https://github.com/sjl/badwolf
+[submodule ".bash-git-prompt"]
+	path = .bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt
