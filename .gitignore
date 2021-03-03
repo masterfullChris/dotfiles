@@ -3,8 +3,8 @@
 *swp
 /.emacs.d/*
 !./.emacs.d/init
-./mpd/database
-./mpd/log
-./mpd/pid
-./mpd/state
-./mpd/sticker.sql
+*mpd/database
+*mpd/log
+*mpd/pid
+*mpd/state
+*mpd/sticker.sql
