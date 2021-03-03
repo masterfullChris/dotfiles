@@ -7,6 +7,9 @@ set incsearch
 set ignorecase
 set smartcase
 
+let g:airline#extensions#tabline#enabled = 1
+
+
 colorscheme badwolf
 let mapleader = ","
 let g:airline_powerline_fonts=1
