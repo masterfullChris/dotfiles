@@ -68,9 +68,9 @@ mpd_music_dir = "~/Music"
 ## will make localhost:5555 available as a source of data for the stereo
 ## visualizer.
 ##
-#visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_fifo_path = "/tmp/mpd.fifo"
 #
-visualizer_data_source = "/tmp/mpd.fifo"
+#visualizer_data_source = "/tmp/mpd.fifo"
 #
 ##
 ## Note: Below parameter is needed for ncmpcpp to determine which output
@@ -101,7 +101,7 @@ visualizer_in_stereo = yes
 ##
 visualizer_type = spectrum
 #
-visualizer_fps = 60
+#visualizer_fps = 60
 #
 #visualizer_autoscale = no
 #
