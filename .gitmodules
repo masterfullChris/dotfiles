@@ -13,3 +13,6 @@
 [submodule ".bash-git-prompt"]
 	path = .bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt
+[submodule "monaco-powerline"]
+	path = monaco-powerline
+	url = https://gist.github.com/lujiacn/32b598b1a6a43c996cbd93d42d466466
