@@ -167,4 +167,4 @@ GIT_SHOW_UNTRACKED_FILES=no # Don't count untracked files (no, normal, all)
 
 
 
-source ~/git.plugin.zsh
+source ./git.plugin.zsh
