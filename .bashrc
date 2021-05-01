@@ -163,3 +163,8 @@ GIT_PROMPT_ONLY_IN_REPO=1 # Use the default prompt when not in a git repo.
 GIT_PROMPT_FETCH_REMOTE_STATUS=0 # Avoid fetching remote status
 GIT_PROMPT_SHOW_UPSTREAM=0 # Don't display upstream tracking branch
 GIT_SHOW_UNTRACKED_FILES=no # Don't count untracked files (no, normal, all)
+
+
+
+
+source ~/git.plugin.zsh
