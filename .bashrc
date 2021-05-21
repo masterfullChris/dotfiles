@@ -126,7 +126,7 @@ alias aps='apt-cache search'
 alias xopen='xdg-open'
 
 
-source ~/.Xmodmaprc
+#source ~/.Xmodmaprc
 
 
 export LESS_TERMCAP_mb=$'\e[1;32m'
@@ -167,4 +167,4 @@ GIT_SHOW_UNTRACKED_FILES=no # Don't count untracked files (no, normal, all)
 
 
 
-source ~/git.plugin.zsh
+source ~/git.plugin.sh
