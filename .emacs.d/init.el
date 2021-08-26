@@ -60,7 +60,7 @@
  '(org-agenda-files (quote ("~/Documents/proj/org/myurlaub.org")))
  '(package-selected-packages
    (quote
-    (mpdel undo-tree which-key projectile magit ivy-rich emmet-mode emmet flycheck helpful helpfull pdf-tools org-bullets counsel ivy use-package doom-themes doom-modeline company))))
+    (google-translate mpdel undo-tree which-key projectile magit ivy-rich emmet-mode emmet flycheck helpful helpfull pdf-tools org-bullets counsel ivy use-package doom-themes doom-modeline company))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -219,5 +219,30 @@
 (global-set-key (kbd "C-c e") 'config-edit)
 (global-set-key (kbd "C-c r") 'config-reload)
 
+
+
+;; (require 'google-translate)
+;; (require 'google-translate-default-ui)
+;; (global-set-key "\C-ct" 'google-translate-at-point)
+;; (global-set-key "\C-cT" 'google-translate-query-translate)
+
+
+
+;; (require 'google-translate)
+;; (require 'google-translate-smooth-ui)
+;; (global-set-key "\C-ct" 'google-translate-smooth-translate)
+
+
+(use-package google-translate
+  :ensure t
+  :custom
+  (google-translate-backend-method 'curl)
+  :config
+   (defun google-translate--search-tkk () "Search TKK." (list 430675 2721866130)))
+
+
+
 ;;; personal comment
 ;;; init.el ends here.
+
+
