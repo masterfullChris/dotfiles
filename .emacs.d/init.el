@@ -238,6 +238,7 @@
   :custom
   (google-translate-backend-method 'curl)
   :config
+  (global-set-key (kbd "C-c t") 'google-translate-at-point)
    (defun google-translate--search-tkk () "Search TKK." (list 430675 2721866130)))
 
 
