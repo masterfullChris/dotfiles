@@ -1,6 +1,6 @@
 ;;; Package --- Summary
 
-;;; Commentary.
+;;; Commentary:
 
 
 ;;; Code:
@@ -244,6 +244,4 @@
 
 
 ;;; personal comment
-;;; init.el ends here.
-
-
+(provide 'init)
